@@ -1,0 +1,25 @@
+.btnList {
+  list-style: none;
+
+  display: flex;
+
+  justify-content: center;
+}
+.btnListItem {
+  margin: 20px;
+}
+.btn {
+  background-color: tomato;
+  padding: 10px 25px;
+  color: black;
+  border-radius: 5px;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  transition: background-color 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover,
+.btn:active {
+  background-color: rgb(48, 210, 51);
+}
